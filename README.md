@@ -1,7 +1,7 @@
 # Amusement-Park-Website
 # This is a group project made by me and two of my friends(DEEKSHA, VIMALENDU AND SHREYA). This is an Amusement-Park Website we made for our college project. The website consists of signup and login authentication pages, Water park page, Food court page, Mini desert world page, Homepage and Ticket Booking Page.
 
-# METHODS & METHODOLOGY
+## METHODS & METHODOLOGY
 ## Proposed Work:
 Several materials are used to build this project. Certain software interfaces are used like Windows 10, 8GB RAM/ 255GB HDD. Technologies are also used like HTML, CSS, JAVA, MySQL, PHP, for full stack development tools. 
 •	First of all, the user will have to log into their accounts.
@@ -28,3 +28,6 @@ Several materials are used to build this project. Certain software interfaces ar
 •	Designing of sign-up page.
 •	Designing of water park page.
 •	Designing of online ticket booking portal.
+
+## You can see the working of this website here:
+https://drive.google.com/file/d/1BiFSnT8RBoRW3u0V3lIKcxInfykYWCyR/view

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+body{
+    margin:0;
+}
+*{
+    font-family:'Roboto Mono', monospace; 
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;    
+    background-image: url("https://shop-us.vivaticket.com/hhs/resources/images/bg-header-8555c3209703f7168da349bb4e6127cd.png");
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.header #logo{
+    height:150px;
+    width:250px;
+}
+.header button{
+    width:300px;
+    height: 100px;
+    margin-top:15px;
+    box-shadow: 5px 10px rgba(5, 4, 56, 0.452);
+}
+#home{
+    background-image: url("home.png");
+    background-size:40px;
+    background-repeat: no-repeat;
+    background-color: rgb(28, 11, 107);
+    color:yellow;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#home:hover{
+ transform: scale(0.9);
+ cursor: pointer;
+}
+#other{
+    background-image: url("explore.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: rgb(28, 11, 107);
+    color:yellow;
+    font-size: 28px;
+    border-radius: 20px;
+    margin-right:90px;
+}
+
+#other:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+   }
+.video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    overflow: hidden;
+   
+
+}
+.video #view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#fun{
+  font-size: 6rem;
+  padding: 20px;
+  margin: 15px;
+  margin-top: 200px;
+  padding-bottom:45px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.493);
+  height:12vh;
+  text-shadow:rgb(255, 12, 61)  6px 6px 5px;
+  color:rgb(205, 226, 17);
+
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(228, 3, 3, 0.822);
+    width:100%;
+}
+.activities #explore{
+    text-align: center;
+    background-color: rgb(229, 255, 0);
+    border-radius: 900px;
+    display:block;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 2.5rem;
+}
+.rides{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-evenly;
+    text-align: center;
+    grid-gap: 40px 20px;
+    width:100%;
+    background-image: url("https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+   
+  
+}
+
+        
+
+.rides::after{
+    content: " ";
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(34, 14, 209, 0.856);
+    opacity: 0.5;
+    position: absolute;
+    
+}
+.rides h2{
+    margin-top: 90px;
+    color:rgb(243, 243, 243);
+   
+    border-radius: 50px;
+    background-color: red;
+   
+}
+.rides p{
+    opacity: 0;
+    font-size: 25px;
+    margin-top:100px;
+    background-color: rgba(192, 228, 126, 0.418);
+    color:rgb(32, 5, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    font-weight: bold;
+    height:100%;
+    width:100%;
+    text-align: center;
+    overflow:hidden;
+}
+.rides p:hover{
+    opacity: 0.9;
+}
+.deep{
+    background-image: url("https://imgmediagumlet.lbb.in/media/2020/03/5e5e4dae630f607995ea4ac0_1583238574279.JPG?fm=webp&w=750&h=500&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    position: relative;
+    z-index: 1;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+    box-shadow: rgb(247, 23, 23);
+   
+}
+.deep::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.deep:hover{
+    transform: scale(0.9);
+  
+}
+.rapid{
+    background-image: url("https://static.wixstatic.com/media/ff27a9_79530d1c92684cff8b7155c60aaa9a77~mv2.jpg/v1/fit/w_320,h_320,q_90/ff27a9_79530d1c92684cff8b7155c60aaa9a77~mv2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    position: relative;
+    z-index: 1;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.rapid::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.rapid:hover{
+    transform: scale(0.9);
+}
+.wave
+{
+    background-image: url("https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2018/03/Wave-Pool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.wave::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+        opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+
+.wave:hover{
+        transform: scale(0.9);
+}
+.raft
+{
+    background-image: url("https://imgmediagumlet.lbb.in/media/2020/03/5e5e4dae630f607995ea4ac2_1583238574287.JPG?fm=webp&w=750&h=500&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+    
+}
+.raft::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+        opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.raft:hover{
+    transform: scale(0.9);
+}
+.boom
+{
+    background-image: url("https://imgmediagumlet.lbb.in/media/2020/03/5e5e4dae630f607995ea4ac1_1583238574284.JPG?fm=webp&w=750&h=500&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.boom::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.boom:hover{
+    transform: scale(0.9);
+}
+.cart
+{
+    background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2018/05/30174044/300518_WOW_01.jpg?fm=webp&w=750&h=500&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.cart::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+        opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.cart:hover{
+    transform: scale(0.9);
+}
+.big
+{
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/130730155211-water-parks---yas-waterworld-horizontal-large-gallery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.big::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+        opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.big:hover{
+    transform: scale(0.9);
+}
+.lake
+{
+    background-image: url("https://static-blog.treebo.com/wp-content/uploads/2018/04/Aapno-Ghar-Gurgaon-.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+    position: relative;
+    border:6px solid rgb(0, 0, 0);
+    border-radius:50px;
+    transition: 0.5s ease transform;
+    overflow:hidden;
+}
+.lake::after{
+    content:" ";
+    position: absolute;
+    z-index: -1;
+    background: rgb(99,103,251);
+    background: linear-gradient(189deg, rgba(99,103,251,1) 25%, rgba(230,136,136,1) 67%);
+        opacity: 0.3;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+}
+.lake:hover{
+    transform: scale(0.9);
+}
+.care{
+    background: rgb(99,103,251);
+background: linear-gradient(0deg, rgba(99,103,251,0.9307073171065301) 25%, rgba(230,136,136,1) 67%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.care h1{
+    text-align: center;
+    background-color: rgb(217, 255, 4);
+    border-radius: 900px;
+    display:block;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 2.5rem;
+}
+.care h2{
+    font-size: 1.5rem;
+    color:rgb(102, 8, 74);
+    animation: motion 12s linear infinite;
+}
+@keyframes motion {
+    0%   
+    { 
+        transform: translate(0, 0); 
+    }
+    100% 
+    { 
+        transform: translate(100%, 0); 
+    }
+}
+.care ul{
+    font-size: 1.5 rem;
+    font-weight: bold;
+    line-height: 40px;
+    color:rgb(6, 6, 56);
+}
+/* 
+.ticket {
+    position: fixed;
+    bottom: -4px;
+    right: 0px;
+ 
+   
+  }
+.ticket button{
+    background-color : #0c2bb6f8;
+    color: white;
+    border-radius: 20px;
+    height: 200px;
+    width:200px;
+    font-size: 2rem;
+    border:none;
+    animation: tick 10s infinite;
+    position: relative;
+}
+@keyframes tick {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 100px;
+        background-color: black;
+    }
+} */
+#book_tickets a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    background-color: red;
+    color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+    box-shadow: 0px 5px 10px black;
+}
+
+
+@media (max-width: 1310px){
+    .container{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:635px)
+{
+    
+    .video{
+      height:700px;
+    }
+    
+}
+@media (max-width:349px) {
+    .container{
+        width: max-content;
+    }
+    .activities{
+      display: none;
+    }
+    
+}
